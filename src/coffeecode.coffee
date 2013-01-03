@@ -1,3 +1,7 @@
+
+
+
+
 class GameOfLife
   currentCellGeneration: null
   cellSize: 7

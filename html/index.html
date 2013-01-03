@@ -3,8 +3,10 @@
 <head>
     <title>Game of Life</title>
 
-    <script type="text/javascript" src="coffeecode.js">
-    </script>
+    <script type="text/javascript" src="coffeecode.js"></script>
+    <script type="text/javascript" src="requestAnimationFrame.js"></script>
+    <script type="text/javascript" src="FunctionalGolCell.js"></script>
+    <script type="text/javascript" src="FunctionalGameOfLife.js"></script>
 
     <style type="text/css">
         body {
@@ -20,7 +22,8 @@
 </head>
 <body>
 <script type="text/javascript">
-    new GameOfLife();
+    //new GameOfLife();
+    new FunctionalGameOfLife(50,15,20,0.5)
 </script>
 </body>
 </html>
